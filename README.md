@@ -52,8 +52,8 @@ Install the required dependencies using npm:
 npm install
 Deployment
 
-Before deploying the contract to a testnet, you need to set up my API key. Create an Infura  account and generate an API key. 
-Deploy the Contract
+Before deploying the contract to a testnet, I need to set up my API key. Create an Infura  account and generate an API key which is 13a72f10f9d140a6a2c607f48c90a36b. 
+Then Deployed the Contract
 
-Before deploying the contract to a testnet, I need to set up my API key. Create an Infura or Alchemy account and generate an API key. Replace <YOUR_API_KEY> in the hardhat.config.js file with my actual API key.
+Before deploying the contract to a testnet, I need to set up my API key. Create an Infura or Alchemy account and generate an API key. I eplaced 13a72f10f9d140a6a2c607f48c90a36b as my API Key in the hardhat.config.js file with my actual API key.
 
