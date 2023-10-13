@@ -19,3 +19,41 @@ To run and test this project, follow these steps:
    ```bash
    git clone <repository-url>
    cd <project-directory>
+project-root/
+│
+├── contracts/
+│ └── Calculator.sol # Solidity smart contract source code
+│
+├── test/
+│ └── calculator.test.js # Test script for the Calculator contract
+│
+├── hardhat.config.js # Hardhat configuration file
+│
+├── scripts/
+│ └── deploy.js # Deployment script for the contract
+│
+├── README.md # This README document
+
+## Getting Started
+
+To run and test this project, follow these steps:
+
+1. **Installation**
+
+   Clone this repository to your local machine and navigate to the project directory:
+
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
+Install Dependencies
+
+Install the required dependencies using npm:
+
+npm install
+Deployment
+
+Before deploying the contract to a testnet, you need to set up my API key. Create an Infura  account and generate an API key. 
+Deploy the Contract
+
+Before deploying the contract to a testnet, I need to set up my API key. Create an Infura or Alchemy account and generate an API key. Replace <YOUR_API_KEY> in the hardhat.config.js file with my actual API key.
+
